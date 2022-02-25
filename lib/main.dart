@@ -1,3 +1,3 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:animated_
+import 'package:animated_o
