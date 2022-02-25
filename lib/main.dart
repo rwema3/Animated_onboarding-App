@@ -6,4 +6,4 @@ void main() {
   runApp(MyApp());
 }
 
-class My
+class MyAp
