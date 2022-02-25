@@ -11,4 +11,4 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       home: Onboard(),
-      theme: ThemeData(primaryColor: const Color(0xFF4A0
+      theme: ThemeData(primaryColor: const Color(0xFF4A00
