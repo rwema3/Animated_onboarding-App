@@ -11,4 +11,4 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       home: Onboard(),
-      theme: Th
+      theme: T
