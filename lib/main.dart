@@ -5,5 +5,3 @@ import 'package:animated_onboarding/screens/onboard/onboard.dart';
 void main() {
   runApp(MyApp());
 }
-
-c
