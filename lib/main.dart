@@ -10,4 +10,4 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      home: Onboard(),
+      home: Onboard()
