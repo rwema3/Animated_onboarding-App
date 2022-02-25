@@ -11,4 +11,4 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       home: Onboard(),
-      theme: ThemeData(primaryCol
+      theme: ThemeData(primaryCo
