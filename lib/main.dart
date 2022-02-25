@@ -1,3 +1,3 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:animated_onboarding/s
+import 'package:animated_onboarding/sc
