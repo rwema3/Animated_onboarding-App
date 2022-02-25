@@ -1,2 +1,2 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dar
+import 'package:get/get.dart
