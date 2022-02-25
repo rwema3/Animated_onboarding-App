@@ -3,4 +3,3 @@ import 'package:get/get.dart';
 import 'package:animated_onboarding/screens/onboard/onboard.dart';
 
 void main() {
-  r
