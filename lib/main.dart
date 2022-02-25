@@ -10,6 +10,4 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      home: Onboard(),
-      theme: ThemeData(primaryColor: const Color(0xFF4A00E0)),
     
