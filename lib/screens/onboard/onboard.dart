@@ -138,3 +138,17 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
                               const Color(0xFFFF3264),
                             ]
                           : [
+                              const Color(0xFFFFFFFF),
+                              const Color(0xFFFFFFFF),
+                            ],
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
