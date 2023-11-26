@@ -72,3 +72,5 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
   }
 
   @override
+  Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
