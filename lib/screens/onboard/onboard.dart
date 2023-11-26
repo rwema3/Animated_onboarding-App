@@ -38,3 +38,5 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
   @override
   void initState() {
     initializePages(); // initialize pages to be shown
+    _pageController = PageController();
+    _pageController!.addListener(() {
