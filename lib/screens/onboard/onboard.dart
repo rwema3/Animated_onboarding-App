@@ -120,3 +120,6 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
                   child: Text(
                     'Get Started',
                     style: TextStyle(
+                      color: onboardPage
+                          ? const Color(0xFFFFFFFF)
+                          : const Color(0xFF220555),
