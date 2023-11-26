@@ -70,3 +70,5 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
       );
     });
   }
+
+  @override
