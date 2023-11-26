@@ -17,3 +17,4 @@ class FadingSlidingWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SlideTransition(
+      position: _animationController.drive(
