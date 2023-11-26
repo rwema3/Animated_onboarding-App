@@ -13,3 +13,6 @@ class Onboard extends StatefulWidget {
 
 class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
   List<OnboardPageItem> onboardPageItems = [
+    OnboardPageItem(
+      lottieAsset: 'assets/animations/video_call.json',
+      text: 'See friends stories and events going on around you',
