@@ -84,3 +84,5 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
               controller: _pageController,
               children: onboardItems,
             ),
+          ),
+          Positioned(
