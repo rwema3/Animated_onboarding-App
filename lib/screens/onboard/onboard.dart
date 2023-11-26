@@ -18,3 +18,7 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
       text: 'See friends stories and events going on around you',
     ),
     OnboardPageItem(
+      lottieAsset: 'assets/animations/work_from_home.json',
+      text: 'See friends stories and events going on around you',
+      animationDuration: const Duration(milliseconds: 1100),
+    ),
