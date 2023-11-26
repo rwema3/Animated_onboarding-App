@@ -98,3 +98,8 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
                     : const Color(0x566FFFFFF),
                 activeDotColor: onboardPage
                     ? const Color(0xFF9544d0)
+                    : const Color(0xFFFFFFFF),
+              ),
+            ),
+          ),
+          Positioned(
