@@ -49,3 +49,6 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
       } else if (_activeIndex < 0.5) {
         setState(() {
           onboardPage = false;
+        });
+      }
+    });
