@@ -103,3 +103,8 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
             ),
           ),
           Positioned(
+            bottom: 20,
+            child: GestureDetector(
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return Mainscreen();
