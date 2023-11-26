@@ -63,3 +63,7 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
     onboardItems.add(WelcomePage()); // welcome page
     onboardPageItems.forEach((onboardPageItem) {
       // adding onboard pages
+      onboardItems.add(
+        OnboardPage(
+          onboardPageItem: onboardPageItem,
+        ),
