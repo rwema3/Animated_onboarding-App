@@ -123,3 +123,10 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
                       color: onboardPage
                           ? const Color(0xFFFFFFFF)
                           : const Color(0xFF220555),
+                      fontSize: width * 0.05,
+                      fontFamily: 'ProductSans',
+                    ),
+                  ),
+                  decoration: ShapeDecoration(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(width * 0.1),
