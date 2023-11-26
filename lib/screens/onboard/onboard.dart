@@ -40,3 +40,5 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
     initializePages(); // initialize pages to be shown
     _pageController = PageController();
     _pageController!.addListener(() {
+      _activeIndex = _pageController!.page ?? 0.0;
+      print("Active Index: $_activeIndex");
