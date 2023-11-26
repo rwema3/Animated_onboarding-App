@@ -130,3 +130,7 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
                   decoration: ShapeDecoration(
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(width * 0.1),
+                    ),
+                    gradient: LinearGradient(
+                      colors: onboardPage
+                          ? [
