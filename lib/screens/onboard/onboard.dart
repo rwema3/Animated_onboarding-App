@@ -134,3 +134,7 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
                     gradient: LinearGradient(
                       colors: onboardPage
                           ? [
+                              const Color(0xFF8200FF),
+                              const Color(0xFFFF3264),
+                            ]
+                          : [
