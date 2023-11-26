@@ -76,3 +76,7 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
     return Scaffold(
+      body: Stack(
+        alignment: Alignment.center,
+        children: <Widget>[
+          Positioned.fill(
