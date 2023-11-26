@@ -6,3 +6,5 @@ import 'package:animated_onboarding/screens/onboard/welcome_page.dart';
 import 'package:animated_onboarding/screens/onboard/onboard_page.dart';
 import 'package:animated_onboarding/screens/mainscreen.dart';
 
+class Onboard extends StatefulWidget {
+  @override
