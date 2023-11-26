@@ -29,3 +29,6 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
   ];
 
   PageController? _pageController;
+
+  List<Widget> onboardItems = [];
+  double _activeIndex = 0.0;
