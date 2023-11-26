@@ -14,3 +14,5 @@ class FadingSlidingWidget extends StatelessWidget {
   final Widget child;
   final Interval interval;
 
+  @override
+  Widget build(BuildContext context) {
