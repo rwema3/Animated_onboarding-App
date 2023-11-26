@@ -86,3 +86,5 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
             ),
           ),
           Positioned(
+            bottom: height * 0.15,
+            child: SmoothPageIndicator(
