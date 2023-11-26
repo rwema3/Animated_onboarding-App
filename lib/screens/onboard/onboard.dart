@@ -82,3 +82,5 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
           Positioned.fill(
             child: PageView(
               controller: _pageController,
+              children: onboardItems,
+            ),
