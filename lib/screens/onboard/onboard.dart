@@ -57,3 +57,9 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
       duration: const Duration(milliseconds: 1000),
     )..forward();
     super.initState();
+  }
+
+  void initializePages() {
+    onboardItems.add(WelcomePage()); // welcome page
+    onboardPageItems.forEach((onboardPageItem) {
+      // adding onboard pages
