@@ -111,3 +111,6 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
                 }));
               },
               child: FadingSlidingWidget(
+                animationController: _animationController,
+                child: AnimatedContainer(
+                  duration: const Duration(seconds: 1),
