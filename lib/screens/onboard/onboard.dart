@@ -32,3 +32,6 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
 
   List<Widget> onboardItems = [];
   double _activeIndex = 0.0;
+  bool onboardPage = false;
+  late AnimationController _animationController;
+
