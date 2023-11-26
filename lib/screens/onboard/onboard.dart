@@ -91,3 +91,6 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
               controller: _pageController!,
               count: onboardItems.length,
               effect: WormEffect(
+                dotWidth: width * 0.03,
+                dotHeight: width * 0.03,
+                dotColor: onboardPage
