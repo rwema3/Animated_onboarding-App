@@ -56,3 +56,4 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
       vsync: this,
       duration: const Duration(milliseconds: 1000),
     )..forward();
+    super.initState();
