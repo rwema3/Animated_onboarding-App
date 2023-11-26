@@ -24,3 +24,16 @@ class FadingSlidingWidget extends StatelessWidget {
           ),
         ),
       ),
+      child: FadeTransition(
+        opacity: _animationController.drive(
+          Tween<double>(begin: 0.0, end: 1.0).chain(
+            CurveTween(
+              curve: interval,
+            ),
+          ),
+        ),
+        child: child,
+      ),
+    );
+  }
+}
