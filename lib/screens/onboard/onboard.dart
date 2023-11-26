@@ -80,3 +80,5 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
         alignment: Alignment.center,
         children: <Widget>[
           Positioned.fill(
+            child: PageView(
+              controller: _pageController,
