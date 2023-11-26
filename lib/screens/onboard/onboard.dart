@@ -8,3 +8,5 @@ import 'package:animated_onboarding/screens/mainscreen.dart';
 
 class Onboard extends StatefulWidget {
   @override
+  _OnboardState createState() => _OnboardState();
+}
