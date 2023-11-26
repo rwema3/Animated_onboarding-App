@@ -10,3 +10,4 @@ class FadingSlidingWidget extends StatelessWidget {
     ),
   }) : _animationController = animationController;
 
+  final AnimationController _animationController;
