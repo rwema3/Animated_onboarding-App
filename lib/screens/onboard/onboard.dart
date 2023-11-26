@@ -108,3 +108,6 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) {
                   return Mainscreen();
+                }));
+              },
+              child: FadingSlidingWidget(
