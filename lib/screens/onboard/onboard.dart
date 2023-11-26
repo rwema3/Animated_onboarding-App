@@ -10,3 +10,6 @@ class Onboard extends StatefulWidget {
   @override
   _OnboardState createState() => _OnboardState();
 }
+
+class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
+  List<OnboardPageItem> onboardPageItems = [
