@@ -35,3 +35,6 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
   bool onboardPage = false;
   late AnimationController _animationController;
 
+  @override
+  void initState() {
+    initializePages(); // initialize pages to be shown
