@@ -117,3 +117,6 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
                   alignment: Alignment.center,
                   width: width * 0.8,
                   height: height * 0.075,
+                  child: Text(
+                    'Get Started',
+                    style: TextStyle(
