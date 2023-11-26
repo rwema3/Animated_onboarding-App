@@ -12,3 +12,5 @@ class FadingSlidingWidget extends StatelessWidget {
 
   final AnimationController _animationController;
   final Widget child;
+  final Interval interval;
+
