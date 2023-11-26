@@ -89,3 +89,5 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
             bottom: height * 0.15,
             child: SmoothPageIndicator(
               controller: _pageController!,
+              count: onboardItems.length,
+              effect: WormEffect(
