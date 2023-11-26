@@ -52,3 +52,5 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
         });
       }
     });
+    _animationController = AnimationController(
+      vsync: this,
