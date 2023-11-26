@@ -16,3 +16,5 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
     OnboardPageItem(
       lottieAsset: 'assets/animations/video_call.json',
       text: 'See friends stories and events going on around you',
+    ),
+    OnboardPageItem(
