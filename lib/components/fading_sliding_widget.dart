@@ -6,3 +6,5 @@ class FadingSlidingWidget extends StatelessWidget {
     required this.child,
     this.interval = const Interval(
       0.5,
+      1.0,
+    ),
