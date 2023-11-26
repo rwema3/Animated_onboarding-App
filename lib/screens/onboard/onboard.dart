@@ -114,3 +114,6 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
                 animationController: _animationController,
                 child: AnimatedContainer(
                   duration: const Duration(seconds: 1),
+                  alignment: Alignment.center,
+                  width: width * 0.8,
+                  height: height * 0.075,
