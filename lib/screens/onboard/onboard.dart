@@ -67,3 +67,6 @@ class _OnboardState extends State<Onboard> with SingleTickerProviderStateMixin {
         OnboardPage(
           onboardPageItem: onboardPageItem,
         ),
+      );
+    });
+  }
